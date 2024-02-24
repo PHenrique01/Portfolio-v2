@@ -75,8 +75,8 @@
                     <div class="habilidade-icone">
                         <img src="./assets/icons/icone-prototipo.svg" alt="Icone">
                     </div>
-                    <h3 class="habilidade-info-titulo">Prototipagem</h3>
-                    <p class="habilidade-info-texto">
+                    <h3 class="info-titulo">Prototipagem</h3>
+                    <p class="info-texto">
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam, maxime tenetur vel suscipit, harum illo dolor repudiandae minima necessitatibus minus odio, laborum odit hic ex.
                     </p>
                 </div>
@@ -84,8 +84,8 @@
                     <div class="habilidade-icone">
                         <img src="./assets/icons/icone-cursor.svg" alt="Icone">
                     </div>
-                    <h3 class="habilidade-info-titulo">Interatividade</h3>
-                    <p class="habilidade-info-texto">
+                    <h3 class="info-titulo">Interatividade</h3>
+                    <p class="info-texto">
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam, maxime tenetur vel suscipit, harum illo dolor repudiandae minima necessitatibus minus odio, laborum odit hic ex.
                     </p>
                 </div>
@@ -93,8 +93,8 @@
                     <div class="habilidade-icone">
                         <img src="./assets/icons/icone-responsive.svg" alt="Icone">
                     </div>
-                    <h3 class="habilidade-info-titulo">Responsividade</h3>
-                    <p class="habilidade-info-texto">
+                    <h3 class="info-titulo">Responsividade</h3>
+                    <p class="info-texto">
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam, maxime tenetur vel suscipit, harum illo dolor repudiandae minima necessitatibus minus odio, laborum odit hic ex.
                     </p>
                 </div>
@@ -102,15 +102,15 @@
                     <div class="habilidade-icone">
                         <img src="./assets/icons/icone-acessibilidade.svg" alt="Icone">
                     </div>
-                    <h3 class="habilidade-info-titulo">Acessibilidade</h3>
-                    <p class="habilidade-info-texto">
+                    <h3 class="info-titulo">Acessibilidade</h3>
+                    <p class="info-texto">
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam, maxime tenetur vel suscipit, harum illo dolor repudiandae minima necessitatibus minus odio, laborum odit hic ex.
                     </p>
                 </div>
             </div>
             <div id="habilidade-projeto">
-                <h3 class="habilidade-projeto-titulo">Veja meus projetos</h3>
-                <p class="habilidade-projeto-texto">
+                <h3 id="habilidade-projeto-titulo">Veja meus projetos</h3>
+                <p id="habilidade-projeto-texto">
                     Conheça meus projetos de desenvolvimento Front-end.
                 </p>
                 <a href="#" target="_blank" rel="external" id="habilidade-projeto-link">Ver projetos</a>
@@ -119,21 +119,77 @@
         <!-- ========== HABILIDADE SECTION END ========== -->
         <!-- ========== PROJETO SECTION START ========== -->
         <section id="portfolio" aria-label="portfolio">
-            <div class="titulos">
+            <div id="titulos2" class="titulos">
                 <h4 class="subtitulo">Como fiz este trabalho</h4>
                 <h2 class="titulo">Conheça meu portfólio.</h2>
             </div>
-            <div id="portfolio-img"></div>
+            <div id="portfolio-container">
+                <div id="portfolio-img" class="img">
+                    <img src="./assets/imgs/img-dev1.svg" alt="Ilustração" width="500" height="500">
+                </div>
+                <div id="portfolio-info" class="informacao">
+                    <div id="portfolio-info-img">
+                        <img src="assets/imgs/img-insignia.png" alt="Ilustração">
+                    </div>
+                    <p class="texto">
+                        Desenvolvi este portfólio usando as técnologias <strong>HTML</strong>, <strong>CSS</strong> e <strong>JavaScript</strong>. Usando Flex e Grid layout e pude criar um layout responsivo.
+                        <br>
+                        <br>
+                        Criei todo o portfolio usando o <strong><a href="#">Figma.</a></strong>
+                    </p>
+                </div>
+            </div>
         </section>
         <!-- ========== PROJETO SECTION END ========== -->
         <!-- ========== FORMAÇÃO SECTION START ========== -->
-        
+        <section id="formacao" aria-label="formacao">
+            <div class="titulos">
+                <h4 class="subtitulo">Em que eu sou certificado</h4>
+                <h2 class="titulo">Formação técnica.</h2>
+            </div>
+            <div id="formacoes">
+                <div class="formacao-info">
+                    <h3 class="info-titulo info-dec">UI Designer</h3>
+                    <p class="info-texto">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo placeat consequatur animi doloremque dolor voluptas!
+                    </p>
+                </div>
+                <div class="formacao-info">
+                    <h3 class="info-titulo info-dec">HTML, CSS e JavaScript</h3>
+                    <p class="info-texto">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo placeat consequatur animi doloremque dolor voluptas!
+                    </p>
+                </div>
+            </div>
+        </section>
         <!-- ========== FORMAÇÃO SECTION END ========== -->
-    
+    </main>
     <!-- ========== MAIN CONTENT END ========== -->
     
     <!-- ========== FOOTER CONTENT START ========== -->
+    <footer id="footer" aria-label="rodape">
+       <div id="footer-img">
+        <img src="./assets/imgs/logo.svg" alt="Logo" width="372" height="60">
+       </div>
+       <div id="footer-navegacao">
+        <h3 class="info-titulo">Navegação</h3>
+        <ul class="footer-list">
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Formação</a></li>
+            <li><a href="#">Projeto</a></li>
+        </ul>
+        </div>
+        <div id="footer-contato">
+            <ul class="footer-list">
+                <li><a href="#">Email</a></li>
+                <li><a href="#">Linkedin</a></li>
+                <li><a href="#">GitHub</a></li>
+            </ul>
+        </div>
+        <div id="copy">
+            <span id="copy-info">@2024 Paulo Henrique | Todos os direitos.</span>
+        </div>
+    </footer>
     <!-- ========== FOOTER CONTENT END ========== -->
-    </main>
 </body>
 </html>

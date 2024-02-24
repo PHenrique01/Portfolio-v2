@@ -3,10 +3,64 @@
 #portfolio{
     background-color: var(--a1);
     display: flex;
-    align-items: center;
+    flex-direction: column;
     grid-column: 1 / -1;
     margin: 120px 80px 0px 80px;
     border-radius: 5px;
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 10%);
     height: 824px;
+}
+
+#titulos2 .subtitulo{
+    padding: 80px 0px 0px 60px;
+}
+
+#titulos2 .titulo{
+    padding-left: 60px;
+}
+
+#titulos2{
+    border: 1px solid black;
+}
+
+#portfolio-container{
+    display: flex;
+    margin-top: 60px;
+    /* border: 1px solid black; */
+}
+
+#portfolio-img{
+    margin: 0px 100px 0px 60px;
+    border: 1px solid black;
+}
+
+#portfolio-img img{
+    width: 450px;
+}
+
+#portfolio-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+#portfolio-info-img::before{
+    content: "";
+    background-color: #CCE0FF;
+    width: 200px;
+    height: 4px;
+    position: absolute;
+    left: 0px;
+    top: 50px;
+}
+
+#portfolio-info-img::after{
+    content: "";
+    background-color: #CCE0FF;
+    width: 200px;
+    height: 4px;
+    position: absolute;
+    right: 0px;
+    top: 50px;
 }

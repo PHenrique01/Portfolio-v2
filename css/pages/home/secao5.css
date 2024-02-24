@@ -1,0 +1,30 @@
+/* SECTION - FORMAÇÃO */
+
+#formacao{
+    display: flex;
+    flex-direction: column;
+    grid-column: 1 / -1;
+    margin: 120px 0px 0px 140px;
+}
+
+#formacoes{
+    display: flex;
+    flex-direction: column;
+    margin: 60px 0px 0px 50px;
+    gap: 48px;
+    max-width: 960px;
+    height: auto;
+    position: relative;
+    border: 1px solid black;
+}
+
+.info-dec::before{
+    content: "";
+    background-color: var(--a2);
+    width: 25px;
+    height: 25px;
+    margin-top: 12px;
+    position: absolute;
+    left: -50px;
+    border-radius: 50%;
+}

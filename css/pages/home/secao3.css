@@ -11,11 +11,11 @@
     display: flex;
     flex-wrap: wrap;
     grid-column: 1 / 4;
-    margin-top: 60px;
 }
 
 .habilidade-info{
     width: 468px;
+    margin-top: 60px;
 }
 
 .habilidade-icone{
@@ -36,6 +36,22 @@
     margin-top: 60px;
     text-align: center;
     border-radius: 5px 0px 0px 5px;
+}
+
+#habilidade-projeto-titulo{
+    color: var(--c12);
+    font-family: var(--font-poppins);
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48px;
+}
+
+#habilidade-projeto-texto{
+    color: var(--c11);
+    font-family: var(--font-inter);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
 }
 
 #habilidade-projeto-link{
