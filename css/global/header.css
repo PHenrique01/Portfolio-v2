@@ -1,0 +1,30 @@
+#header{
+    max-width: 100vw;
+    background-color: var(--w);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 140px;
+    position: fixed;
+    width: 100%;
+}
+
+#header-menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+    margin-top: 10px;
+}
+
+#header-menu a{
+    font-family: var(--font-poppins);
+    font-size: 1rem;
+    color: var(--c10);
+    display: block;
+    border-bottom: 1px solid var(--w);
+}
+
+#header-menu a:hover{
+    border-color: var(--c10);
+}

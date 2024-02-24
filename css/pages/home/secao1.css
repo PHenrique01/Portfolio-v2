@@ -1,0 +1,49 @@
+/* SECTION - INTRODUÇÃO */
+
+#introducao{
+    background-color: var(--a1);
+    display: flex;
+    align-items: center;
+    grid-column: 1 / -1;
+    margin: 120px 80px 0px 80px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 10%);
+    height: 700px;
+}
+
+#introducao-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 166px 60px;
+    height: 700px;
+    border: 1px solid black;
+}
+
+#introducao-info #introducao-titulo{
+    color: var(--c11);
+    font-family: var(--font-poppins);
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 80px;
+    margin-bottom: 48px;
+    border: 1px solid black;
+}
+
+#introducao-info #introducao-icones{
+    display: flex;
+    gap: 20px;
+}
+
+#introducao-img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-right: 60px;
+    border: 1px solid black;
+}
+
+#introducao-img img{
+    width: 450px;
+}

@@ -1,0 +1,33 @@
+/* CSS - GLOBAL */
+
+@import url(./global/global.css);
+@import url(./global/header.css);
+@import url(./global/footer.css);
+
+/* CSS - PAGES */
+
+/* HOME */
+
+@import url(./pages/home/secao1.css);
+@import url(./pages/home/secao2.css);
+@import url(./pages/home/secao3.css);
+@import url(./pages/home/secao4.css);
+@import url(./pages/home/secao5.css);
+
+/* SOBRE */
+
+@import url(./pages/sobre/sobre.css);
+
+/* FORMAÇÃO */
+
+@import url(./pages/formacao/formacao.css);
+
+/* EXPERIÊNCIA */
+
+@import url(./pages/experiencia/experiencia.css);
+ 
+
+/* CSS - UTIL */
+
+@import url(./util/cores.css);
+@import url(./util/tipografia.css);

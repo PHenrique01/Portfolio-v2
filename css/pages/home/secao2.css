@@ -1,0 +1,39 @@
+/* SECTION - ESTUDO */
+
+#estudo{
+    grid-column: 1 / -1;
+    margin-top: 120px;
+    padding: 40px 0px;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 20%), inset 0px -4px 4px rgba(0, 0, 0, 20%);
+}
+
+#estudo-ano-periodo{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 140px;
+    /* display: grid; */
+    /* grid-template-columns: repeat(3, 1fr); */
+    /* border: 1px solid black; */
+}
+
+#estudo-ano-periodo .ano-periodo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#estudo-ano-periodo .ano{
+    color: var(--c11);
+    font-family: var(--font-poppins);
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+}
+
+#estudo-ano-periodo .periodo{
+    color: var(--c6);
+    font-family: var(--font-poppins);
+    font-size: 40px;
+    font-weight: 200;
+    line-height: 48px;
+}
