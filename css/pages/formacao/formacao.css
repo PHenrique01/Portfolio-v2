@@ -1,0 +1,27 @@
+#formacao2{
+    display: flex;
+    flex-direction: column;
+    grid-column: 1 / -1;
+    margin: 120px 0px 0px 140px;
+}
+
+#formacoes-info{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 60px 40px;
+    margin-top: 60px;
+}
+
+.formacao{
+    background-color: var(--c10);
+    width: 280px;
+    height: 250px;
+}
+
+#header-menu li #formacao-view{
+    border-bottom: 1px solid var(--c12);
+}
+
+#formacao-view:hover{
+    border-bottom: none;
+}

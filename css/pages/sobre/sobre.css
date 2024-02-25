@@ -1,0 +1,21 @@
+#sobre{
+    display: flex;
+    flex-direction: column;
+    grid-column: 1 / -1;
+    margin: 120px 0px 0px 140px;
+}
+
+#sobre-info{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-top: 60px;
+}
+
+#header-menu li #sobre-view{
+    border-bottom: 1px solid var(--c12);
+}
+
+#sobre-view:hover{
+    border-bottom: none;
+}

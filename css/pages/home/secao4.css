@@ -19,23 +19,17 @@
     padding-left: 60px;
 }
 
-#titulos2{
-    border: 1px solid black;
-}
-
 #portfolio-container{
     display: flex;
     margin-top: 60px;
-    /* border: 1px solid black; */
 }
 
 #portfolio-img{
     margin: 0px 100px 0px 60px;
-    border: 1px solid black;
 }
 
 #portfolio-img img{
-    width: 450px;
+    width: 400px;
 }
 
 #portfolio-info{
@@ -43,6 +37,7 @@
     flex-direction: column;
     align-items: center;
     position: relative;
+    margin-right: 60px;
 }
 
 #portfolio-info-img::before{
