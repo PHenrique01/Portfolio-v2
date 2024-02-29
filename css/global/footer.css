@@ -5,6 +5,7 @@
     gap: 148px;
     margin-top: 120px;
     padding: 100px 0px 100px 0px;
+    max-width: 1440px;
 }
 
 #footer-img{
@@ -37,12 +38,17 @@
     line-height: 32px;
 }
 
+.footer-list li a:hover{
+    color: var(--c12);
+}
+
 #copy{
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: var(--c12);
     padding: 8px 140px 8px 140px;
+    max-width: 1440px;
 }
 
 #copy-info{
