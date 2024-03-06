@@ -6,6 +6,7 @@
     margin-top: 120px;
     padding: 100px 0px 100px 0px;
     max-width: 1440px;
+    margin: 120px auto 0px auto;
 }
 
 #footer-img{
@@ -49,6 +50,7 @@
     background-color: var(--c12);
     padding: 8px 140px 8px 140px;
     max-width: 1440px;
+    margin: 0px auto;
 }
 
 #copy-info{

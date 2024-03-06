@@ -1,27 +1,28 @@
 #formacao2{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     grid-column: 1 / -1;
-    margin: 120px 0px 0px 140px;
+    margin: 120px 140px 0px 140px;
 }
 
 #formacoes-info{
     display: grid;
     grid-template-columns: repeat(3, auto);
-    gap: 60px 40px;
+    gap: 60px 20px;
     margin-top: 60px;
 }
 
 .formacao{
-    background-color: var(--c2);
-    width: 280px;
-    height: 250px;
+    background-color: var(--c10);
+    width: 350px;
     border-radius: 5px;
 }
 
 .formacao img{
-    width: 280px;
-    height: 250px;
+    display: block;
+    max-width: 100%;
+    height: auto;
     border-radius: 5px;
 }
 
