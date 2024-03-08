@@ -1,7 +1,7 @@
 /* SECTION - INTRODUÇÃO */
 
 #introducao{
-    background-color: var(--a1);
+    background-color: var(--a2);
     display: flex;
     align-items: center;
     grid-column: 1 / -1;
@@ -18,6 +18,7 @@
     align-items: flex-start;
     padding: 166px 60px;
     height: 700px;
+    max-width: 100%;
 }
 
 #introducao-info #introducao-titulo{
@@ -39,5 +40,9 @@
 }
 
 #introducao-img img{
+    display: block;
     width: 450px;
+    height: auto;
 }
+
+/* MEDIA QUERIES */

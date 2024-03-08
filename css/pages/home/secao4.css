@@ -25,12 +25,13 @@
 }
 
 #portfolio-img{
-    margin: 0px 100px 0px 60px;
+    margin: 0px 20px 0px 60px;
+    /* margin: 0px 100px 0px 60px; */
 }
 
-#portfolio-img img{
+/* #portfolio-img img{
     width: 400px;
-}
+} */
 
 #portfolio-info{
     display: flex;
