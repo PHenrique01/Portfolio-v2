@@ -1,7 +1,7 @@
 /* SECTION - INTRODUÇÃO */
 
 #introducao{
-    background-color: var(--a2);
+    background-color: var(--a1);
     display: flex;
     align-items: center;
     grid-column: 1 / -1;
@@ -46,3 +46,140 @@
 }
 
 /* MEDIA QUERIES */
+
+@media (max-width: 1300px){
+    #introducao-info #introducao-titulo{
+        font-size: 62px;
+    }
+
+    #introducao-info .texto{
+        font-size: 20px;
+    }
+
+    #introducao-img img{
+        width: 440px;
+    }
+}
+
+@media (max-width: 1200px){
+    #introducao{
+        margin: 120px 60px 0px 60px;
+    }
+
+    #introducao-info{
+        padding: 166px 80px;
+    }
+
+    #introducao-info #introducao-titulo{
+        font-size: 52px;
+        line-height: 60px;
+    }
+
+    #introducao-img img{
+        width: 410px;
+    }
+}
+
+@media (max-width: 1100px){
+    #introducao{
+        margin: 120px 40px 0px 40px;
+        height: 500px;
+    }
+
+    #introducao-info{
+        padding: 166px 100px;
+        height: 500px;
+    }
+
+    #introducao-info #introducao-titulo{
+        font-size: 48px;
+        line-height: 50px;
+        margin-bottom: 30px;
+    }
+
+    #introducao-info .texto{
+        font-size: 18px;
+    }
+
+    #introducao-img img{
+        width: 320px;
+    }
+}
+
+@media (max-width: 1000px){
+    #introducao{
+        margin: 120px 30px 600px 30px;
+    }
+
+    #introducao-info{
+        padding-right: 80px;
+    }
+
+    #introducao-img img{
+        width: 280px;
+    }
+}
+
+@media (max-width: 900px){
+    #introducao-info{
+        padding-right: 40px;
+    }
+
+    #introducao-img img{
+        width: 220px;
+    }
+}
+
+@media (max-width: 800px){
+    #introducao{
+        height: 450px;
+    }
+
+    #introducao-info{
+        padding-left: 20px;
+        padding-right: 20px;
+        align-items: center;
+        height: 450px;
+    }
+
+    #introducao-info #introducao-titulo{
+        font-size: 44px;
+    }
+
+    #introducao-info #introducao-icones{
+        align-self: center;
+        gap: 40px;
+    }
+
+    #introducao-info #introducao-icones a img{
+        width: 30px;
+    }
+
+    #introducao-img{
+        display: none;
+    }
+}
+
+
+@media (max-width: 600px){
+    #introducao-info #introducao-titulo{
+        font-size: 38px;
+    }
+}
+
+@media (max-width: 400px){
+    #introducao{
+        height: 500px;
+    }
+
+    #introducao-info{
+        padding-left: 10px;
+        padding-right: 10px;
+        align-items: center;
+        height: 500px;
+    }
+
+    #introducao-info #introducao-titulo{
+        font-size: 28px;
+    }
+}
