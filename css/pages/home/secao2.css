@@ -10,6 +10,7 @@
 #estudo-ano-periodo{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding: 0px 140px;
     /* display: grid; */
     /* grid-template-columns: repeat(3, 1fr); */
@@ -36,4 +37,64 @@
     font-size: 40px;
     font-weight: 200;
     line-height: 48px;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 1400px){
+    #estudo{
+        margin-bottom: 400px;
+    }
+}
+
+@media (max-width: 1000px){
+    #estudo-ano-periodo .ano{
+        font-size: 30px;
+    }
+
+    #estudo-ano-periodo .periodo{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 800px){
+    #estudo-ano-periodo{
+        padding: 0px 40px;
+    }
+
+    #estudo-ano-periodo .ano{
+        font-size: 26px;
+    }
+
+    #estudo-ano-periodo .periodo{
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 500px){
+    #estudo-ano-periodo{
+        padding: 0px 30px;
+    }
+
+    #estudo-ano-periodo .ano{
+        font-size: 22px;
+    }
+
+    #estudo-ano-periodo .periodo{
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 400px){
+    #estudo-ano-periodo{
+        padding: 0px 20px;
+    }
+
+    #estudo-ano-periodo .ano{
+        font-size: 18px;
+    }
+
+    #estudo-ano-periodo .periodo{
+        font-size: 18px;
+    }
 }
