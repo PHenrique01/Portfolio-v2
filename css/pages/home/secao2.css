@@ -41,12 +41,6 @@
 
 /* MEDIA QUERIES */
 
-@media (max-width: 1400px){
-    #estudo{
-        margin-bottom: 400px;
-    }
-}
-
 @media (max-width: 1000px){
     #estudo-ano-periodo .ano{
         font-size: 30px;

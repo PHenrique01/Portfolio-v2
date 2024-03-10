@@ -1,21 +1,26 @@
 /* SECTION - HABILIDADE */
 
 #habilidade{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
     grid-column: 1 / -1;
     margin: 120px 0px 0px 140px;
 }
 
-#habilidades{
+#habilidade-content{
     display: flex;
-    flex-wrap: wrap;
-    grid-column: 1 / 4;
+    margin-top: 60px;
+}
+
+#habilidades{
+    display: grid;
+    gap: 60px 40px;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .habilidade-info{
-    width: 468px;
-    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    max-width: 650px;
+    height: auto;
 }
 
 .habilidade-icone{
@@ -33,9 +38,9 @@
     justify-content: center;
     align-items: center;
     gap: 60px;
-    margin-top: 60px;
     text-align: center;
     border-radius: 5px 0px 0px 5px;
+    margin-left: 20px;
 }
 
 #habilidade-projeto-titulo{
@@ -65,4 +70,84 @@
 
 #habilidade-projeto-link:hover{
     border-bottom: none;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 1200px){
+    #habilidade .titulo{
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    #habilidade .subtitulo{
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .habilidade-info .info-titulo{
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    .habilidade-info .info-texto{
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    #habilidade-projeto-titulo{
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    #habilidade-content{
+        flex-direction: column;
+    }
+
+    #habilidade-projeto{
+        padding-top: 20px;
+        margin-left: 0px;
+        border-radius: 0px 0px 5px 5px;
+    }
+}
+
+@media (max-width: 900px){
+    #habilidade{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .habilidade-info .info-titulo{
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .habilidade-info .info-texto{
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
+@media (max-width: 600px){
+   #habilidade{
+    margin-left: 20px;
+    margin-right: 20px;
+   }
+
+   #habilidades{
+    gap: 40px 20px;
+    grid-template-columns: 1fr;
+   }
+}
+
+@media (max-width: 500px){
+    #habilidade .titulo{
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    #habilidade .subtitulo{
+        font-size: 12px;
+        line-height: 16px;
+    }
 }

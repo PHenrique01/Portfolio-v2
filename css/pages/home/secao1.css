@@ -112,7 +112,6 @@
     #introducao{
         margin-left: 30px;
         margin-right: 30px;
-        margin-bottom: 600px;
     }
 
     #introducao-info{
@@ -169,6 +168,10 @@
     #introducao-info #introducao-titulo{
         font-size: 38px;
     }
+
+    #introducao-info #introducao-titulo{
+        text-align: center;
+    }
 }
 
 @media (max-width: 400px){
@@ -187,5 +190,9 @@
 
     #introducao-info #introducao-titulo{
         font-size: 28px;
+    }
+
+    #introducao-info .texto{
+        text-align: justify;
     }
 }
