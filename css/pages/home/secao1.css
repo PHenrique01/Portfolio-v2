@@ -52,10 +52,6 @@
         font-size: 62px;
     }
 
-    #introducao-info .texto{
-        font-size: 20px;
-    }
-
     #introducao-img img{
         width: 440px;
     }
@@ -97,10 +93,6 @@
         font-size: 48px;
         line-height: 50px;
         margin-bottom: 30px;
-    }
-
-    #introducao-info .texto{
-        font-size: 18px;
     }
 
     #introducao-img img{
@@ -190,9 +182,5 @@
 
     #introducao-info #introducao-titulo{
         font-size: 28px;
-    }
-
-    #introducao-info .texto{
-        text-align: justify;
     }
 }

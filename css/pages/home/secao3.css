@@ -75,24 +75,17 @@
 /* MEDIA QUERIES */
 
 @media (max-width: 1200px){
-    #habilidade .titulo{
-        font-size: 48px;
-        line-height: 60px;
+    #habilidade{
+        margin-left: 60px;
+        margin-right: 60px;
     }
 
-    #habilidade .subtitulo{
-        font-size: 20px;
-        line-height: 24px;
+    #habilidade .subtitulo, .titulo{
+        padding-left: 80px;
     }
 
-    .habilidade-info .info-titulo{
-        font-size: 32px;
-        line-height: 36px;
-    }
-
-    .habilidade-info .info-texto{
-        font-size: 20px;
-        line-height: 24px;
+    .habilidade-info{
+        padding-left: 80px;
     }
 
     #habilidade-projeto-titulo{
@@ -105,8 +98,10 @@
     }
 
     #habilidade-projeto{
-        padding-top: 20px;
+        margin-top: 20px;
         margin-left: 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
         border-radius: 0px 0px 5px 5px;
     }
 }
@@ -116,38 +111,55 @@
         margin-left: 30px;
         margin-right: 30px;
     }
+}
 
-    .habilidade-info .info-titulo{
+@media (max-width: 800px){
+    #habilidade .subtitulo, .titulo{
+        padding-left: 20px;
+    }
+
+    .habilidade-info{
+        padding-left: 20px;
+    }    
+}
+
+@media (max-width: 600px){
+    #habilidades{
+        gap: 40px 20px;
+        grid-template-columns: 1fr;
+    }
+
+    .habilidade-icone img{
+        width: 25px;
+    }
+
+    #habilidade-projeto-titulo{
         font-size: 24px;
         line-height: 32px;
     }
 
-    .habilidade-info .info-texto{
+    #habilidade-projeto-texto{
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    #habilidade-projeto-link{
         font-size: 16px;
         line-height: 20px;
     }
 }
 
-@media (max-width: 600px){
-   #habilidade{
-    margin-left: 20px;
-    margin-right: 20px;
-   }
-
-   #habilidades{
-    gap: 40px 20px;
-    grid-template-columns: 1fr;
-   }
-}
-
-@media (max-width: 500px){
-    #habilidade .titulo{
-        font-size: 32px;
-        line-height: 36px;
+@media (max-width: 400px){
+    #habilidade .subtitulo, .titulo{
+        padding-left: 10px;
     }
 
-    #habilidade .subtitulo{
-        font-size: 12px;
-        line-height: 16px;
+    .habilidade-info{
+        padding-left: 10px;
+    }
+
+    #habilidade{
+        margin-left: 20px;
+        margin-right: 20px;
     }
 }
