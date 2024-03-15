@@ -1,11 +1,11 @@
 #footer{
-    display: grid;
-    grid-template-columns: repeat(3, auto);
+    display: flex;
     justify-content: center;
-    gap: 148px;
-    padding: 100px 0px 100px 0px;
-    max-width: 1440px;
+    flex-wrap: wrap;
     margin: 120px auto 0px auto;
+    padding: 100px 0px 100px 0px;
+    gap: 148px;
+    max-width: 1440px;
 }
 
 #footer-img{
@@ -14,16 +14,20 @@
     height: auto;
 }
 
+#footer-content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 148px;
+}
+
 #footer-navegacao{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
 }
 
 #footer-contato{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
 }
 
 .footer-list li{
@@ -46,8 +50,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     background-color: var(--c12);
-    padding: 8px 140px 8px 140px;
+    padding: 8px 140px;
     max-width: 1440px;
     margin: 0px auto;
 }
@@ -67,4 +72,118 @@
 
 #copy-icones a img{
     width: 25px;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 1000px){
+    #footer{
+        gap: 120px;
+    }
+
+    #footer-img img{
+        width: 300px;
+    }
+
+    #footer-content{
+        gap: 120px;
+    }
+
+    .footer-list li a{
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    #copy{
+        padding: 8px 120px;
+    }
+}
+
+@media (max-width: 900px){
+    #footer{
+        gap: 80px;
+    }
+
+    #footer-img img{
+        width: 220px;
+    }
+
+    #footer-content{
+        gap: 80px;
+    }
+
+    .footer-list li a{
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    #copy{
+        padding: 8px 80px;
+    }
+
+    #copy-info{
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
+@media (max-width: 700px){
+    #footer{
+        gap: 60px;
+    }
+    
+    #footer-content{
+        gap: 60px;
+    }
+
+    #footer-navegacao .info-titulo{
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    #footer-contato .info-titulo{
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    #copy{
+        padding: 8px 60px;
+    }
+}
+
+@media (max-width: 600px){
+    #footer{
+        gap: 40px;
+    }
+
+    #footer-content{
+        gap: 40px;
+    }
+
+    #copy{
+        flex-direction: column;
+        padding: 8px 40px;
+    }
+
+    #copy-icones{
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 500px){
+    #footer{
+        gap: 20px;
+    }
+
+    #footer-img img{
+        width: 180px;
+    }
+
+    #footer-content{
+        gap: 20px;
+    }
+
+    #copy{
+        padding: 8px 20px;
+    }
 }

@@ -28,7 +28,7 @@
 
 #header-menu a{
     font-family: var(--font-poppins);
-    font-size: 1rem;
+    font-size: 16px;
     color: var(--c10);
     display: block;
     border-bottom: 1px solid var(--w);

@@ -80,12 +80,19 @@
         margin-right: 60px;
     }
 
-    #habilidade .subtitulo, .titulo{
-        padding-left: 80px;
+    #habilidade .subtitulo{
+        margin-left: 80px;
+        border: 1px solid black;
+    }
+
+    #habilidade .titulo{
+        margin-left: 80px;
+        border: 1px solid black;
     }
 
     .habilidade-info{
-        padding-left: 80px;
+        margin-left: 80px;
+        border: 1px solid black;
     }
 
     #habilidade-projeto-titulo{
@@ -114,12 +121,16 @@
 }
 
 @media (max-width: 800px){
-    #habilidade .subtitulo, .titulo{
-        padding-left: 20px;
+    #habilidade .subtitulo{
+        margin-left: 20px;
+    }
+
+    #habilidade .titulo{
+        margin-left: 20px;
     }
 
     .habilidade-info{
-        padding-left: 20px;
+        margin-left: 20px;
     }    
 }
 
@@ -150,16 +161,20 @@
 }
 
 @media (max-width: 400px){
-    #habilidade .subtitulo, .titulo{
-        padding-left: 10px;
-    }
-
-    .habilidade-info{
-        padding-left: 10px;
-    }
-
     #habilidade{
         margin-left: 20px;
         margin-right: 20px;
+    }
+
+    #habilidade .subtitulo{
+        margin-left: 10px;
+    }
+
+    #habilidade .titulo{
+        margin-left: 10px;
+    }
+
+    .habilidade-info{
+        margin-left: 10px;
     }
 }
