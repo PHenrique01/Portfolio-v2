@@ -1,22 +1,21 @@
 #formacao2{
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
+    flex-wrap: wrap;
     grid-column: 1 / -1;
     margin: 120px 140px 0px 140px;
 }
 
-#formacoes-info{
-    display: grid;
-    grid-template-columns: repeat(3, auto);
-    gap: 60px 20px;
+#formacoes-info{ 
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 22px;
     margin-top: 60px;
 }
 
 .formacao{
-    background-color: var(--c10);
-    width: 350px;
-    border-radius: 5px;
+    width: 340px;
 }
 
 .formacao img{
@@ -32,4 +31,30 @@
 
 #formacao-view:hover{
     border-bottom: none;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 800px){
+    #formacao2{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
+
+@media (max-width: 500px){
+    .formacao{
+        width: 320px;
+    }
+}
+
+@media (max-width: 400px){
+    #formacao2{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .formacao{
+        width: 260px;
+    }
 }
