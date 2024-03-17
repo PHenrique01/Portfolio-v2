@@ -35,6 +35,12 @@
 
 /* MEDIA QUERIES */
 
+@media (min-width: 1400px){
+    #formacoes-info{
+        justify-content: space-between;
+    }
+}
+
 @media (max-width: 800px){
     #formacao2{
         margin-left: 30px;

@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+:root{
+    --fonte1: 'Passion One', 'cursive';
+    --fonte2: 'Sriracha', 'cursive';
+} 
+
+.cabecalho{
+    background-color: black;
+    padding: 50px;
+    text-align: center;
+}
+
+.cabecalho-logo{
+    color: white;
+    font-family: var(--fonte1);
+    font-weight: normal;
+    font-size: 3em;
+    font-variant: small-caps;
+}
+
+.cabecalho-paragrafo{
+    color: rgba(255, 255, 255, 0.637);
+}
+
+.cabecalho-paragrafo > a{
+    color: white;
+}
+
+.cabecalho-paragrafo > a:hover{
+    text-decoration: underline;
+}
+ 
+section{
+    color: black;
+    font-family: var(--fonte2);
+    font-size: 1.2em;
+    line-height: 2em;
+    padding: 80px 30px;
+}
+
+#img1{
+    background-image: url('../imagens/background001.jpg');
+    background-position: right top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#img2{
+    background-image: url('../imagens/background002.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.fundo{
+    background-color: rgba(0, 0, 0, 0.404);
+    padding: 30px 10px;
+    margin-left: -10px;
+    max-width: 240px;
+    border-radius: 4px;
+}
+
+.fundo > p{
+    color: white;
+    overflow-wrap: break-word;
+}
+
+.rodape{
+    background-color: black;
+    text-align: center;
+    font-size: 1.2em;
+    padding: 5px;
+}
+
+.rodape-paragrafo{
+    color: rgba(255, 255, 255, 0.600);
+}
+
+.rodape-paragrafo > a{
+    color: white;
+}
+
+.rodape-paragrafo > a:hover{
+    text-decoration: underline;
+}
