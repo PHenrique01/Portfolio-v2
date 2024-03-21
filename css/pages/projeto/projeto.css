@@ -42,6 +42,11 @@
     margin-bottom: 0px;
 }
 
+.projeto-info .btns{
+    display: flex;
+    gap: 14px;
+}
+
 .projeto-info .btn{
     background-color: var(--c11);
     color: var(--w);
