@@ -1,0 +1,18 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.fechar{
+    display: none;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
