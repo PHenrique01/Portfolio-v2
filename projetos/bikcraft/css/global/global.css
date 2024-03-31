@@ -12,7 +12,16 @@
     display: none;
 }
 
+a{
+    color: inherit;
+}
+
 img{
     display: block;
     max-width: 100%;
+    height: auto;
+}
+
+img[src$=".jpg"]{
+    border-radius: 4px;
 }

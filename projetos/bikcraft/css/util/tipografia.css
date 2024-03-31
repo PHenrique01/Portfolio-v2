@@ -1,21 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+    --font-poppins: "Poppins", sans-serif;
+    --font-roboto: "Roboto", sans-serif;
+    --font-merriweather: "Merriweather", serif;
+}
+
 .font-1-xs{
-    font: 500 0.75rem/1.35 "Poppins", sans-serif;
+    font: 500 0.75rem/1.35 var(--font-poppins);
 }
 
 .font-2-xs{
-    font: 400 0.875rem/1.43 "Roboto", sans-serif;
+    font: 400 0.875rem/1.43 var(--font-roboto);
 }
 
 .font-1-s{
-    font: 500 1rem/1.5 "Poppins", sans-serif;
+    font: 500 1rem/1.5 var(--font-poppins);
 }
   
 .font-2-s{
-    font: 400 1rem/1.5 "Roboto", sans-serif;
+    font: 400 1rem/1.5 var(--font-roboto);
 }
   
 .font-1-m, .font-1-m-b{
-    font: 500 1.125rem/1.35 "Poppins", sans-serif;
+    font: 500 1.125rem/1.35 var(--font-poppins);
 }
   
 .font-1-m-b{
@@ -23,15 +31,15 @@
 }
   
 .font-2-m{
-    font: 500 1.125rem/1.35 "Roboto", sans-serif;
+    font: 500 1.125rem/1.35 var(--font-roboto);
 }
   
 .font-1-l{
-    font: 500 1.5rem/1.5 "Poppins", sans-serif;
+    font: 500 1.5rem/1.5 var(--font-poppins);
 }
   
 .font-2-l, .font-2-l-b{
-    font: 400 1.5rem/1.5 "Roboto", sans-serif;
+    font: 400 1.5rem/1.5 var(--font-roboto);
 }
   
 .font-2-l-b{
@@ -41,15 +49,15 @@
 }
   
 .font-1-xl{
-    font: 600 2rem/1.25 "Poppins", sans-serif;
+    font: 600 2rem/1.25 var(--font-poppins);
 }
   
 .font-2-xl{
-    font: 500 2rem/1.25 "Roboto", sans-serif;
+    font: 500 2rem/1.25 var(--font-roboto);
 }
   
 .font-1-xxl{
-    font: 600 4rem/1.125 "Poppins", sans-serif;
+    font: 600 4rem/1.125 var(--font-poppins);
 }
 
 @media (max-width: 1200px){

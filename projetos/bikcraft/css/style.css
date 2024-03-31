@@ -14,10 +14,13 @@
 /* HOME */
 
 @import url(./pages/home/introducao.css);
+@import url(./pages/home/tecnologia.css);
+@import url(./pages/home/parceiros.css);
 
 /* BICICLETA */
 
 /* BICICLETAS */
+@import url(./pages/bicicletas/bicicletas.css);
 
 /* CONTATO */
 

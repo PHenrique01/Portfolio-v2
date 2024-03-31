@@ -26,11 +26,11 @@
 }
 
 #header-menu li #formacao-view{
-    border-bottom: 1px solid var(--c12);
+    border-bottom: 2px solid var(--c10);
 }
 
-#formacao-view:hover{
-    border-bottom: none;
+#formacao-view:hover::after{
+    display: none;
 }
 
 /* MEDIA QUERIES */

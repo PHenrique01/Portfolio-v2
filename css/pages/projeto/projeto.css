@@ -63,11 +63,11 @@
 }
 
 #header-menu li #projetos-view{
-    border-bottom: 1px solid var(--c12);
+    border-bottom: 2px solid var(--c10);
 }
 
-#projetos-view:hover{
-    border-bottom: none;
+#projetos-view:hover::after{
+    display: none;
 }
 
 /* MEDIA QUERIES */

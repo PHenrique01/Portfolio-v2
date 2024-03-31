@@ -12,8 +12,8 @@
 
 #habilidades{
     display: grid;
-    gap: 60px 40px;
     grid-template-columns: repeat(2, 1fr);
+    gap: 60px 40px;
 }
 
 .habilidade-info{
@@ -79,17 +79,17 @@
         margin-left: 60px;
         margin-right: 60px;
     }
-
+    
     #habilidade .subtitulo{
-        margin-left: 80px;
+        margin-left: 50px;
     }
 
     #habilidade .titulo{
-        margin-left: 80px;
+        margin-left: 50px;
     }
 
     .habilidade-info{
-        margin-left: 80px;
+        margin: 0px 50px;
     }
 
     #habilidade-projeto-titulo{
