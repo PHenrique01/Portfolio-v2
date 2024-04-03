@@ -10,12 +10,11 @@
 }
 
 .tecnologia-conteudo{
-    padding: 180px 0px;
+    padding: 160px 0px;
 }
 
 .tecnologia-conteudo > span{
     display: block;
-    text-transform: uppercase;
     margin-bottom: 20px;
 }
 

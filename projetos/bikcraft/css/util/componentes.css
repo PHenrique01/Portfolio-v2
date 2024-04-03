@@ -1,7 +1,8 @@
 .container{
     max-width: 1200px;
     margin: 0px auto;
-    padding: 0px 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .botao{
@@ -23,12 +24,12 @@
 }
 
 .botao.secundario{
-    background-color: var(--cor-10);
+    background: var(--cor-10);
     color: var(--cor-2);
 }
 
 .botao.secundario:hover{
-    background-color: var(--cor-9);
+    background: var(--cor-9);
 }
 
 .botao.seta{

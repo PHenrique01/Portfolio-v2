@@ -38,6 +38,12 @@
     max-width: 700px;
 }
 
+.projeto-info > span{
+    color: var(--c8);
+    font-family: var(--font-inter);
+    font-size: 16px;
+}
+
 .projeto-info .info-titulo{
     margin-bottom: 0px;
 }
