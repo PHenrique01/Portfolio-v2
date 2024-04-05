@@ -74,17 +74,36 @@
     color: var(--cor-0);
 }
 
-.titulo{
-    padding: 60px 0;
+.titulo-bg{
+    padding-top: 60px;
+    padding-bottom: 60px;
     background: var(--cor-11);
 }
 
-.titulo div{
-    background: url("../../img/dec/top-right.svg") no-repeat top right 20px;
+.titulo{
+    background: url("../../imgs/dec/top-right.svg") no-repeat top right 20px;
 }
 
 .titulo p{
     margin-bottom: 4px;
+}
+
+#bicicletas li #bicicletas-view::after{
+    content: "";
+    background-color: var(--cor-0);
+    width: 100%;
+}
+
+#seguros li #seguros-view::after{
+    content: "";
+    background-color: var(--cor-0);
+    width: 100%;
+}
+
+#contato li #contato-view::after{
+    content: "";
+    background-color: var(--cor-0);
+    width: 100%;
 }
 
 /* MEDIA QUERY */
@@ -97,8 +116,9 @@
 }
 
 @media (max-width: 800px){
-    .titulo{
-        padding: 40px 0px;
+    .titulo-bg{
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
 
     .titulo p{

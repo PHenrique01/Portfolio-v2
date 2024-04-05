@@ -7,7 +7,7 @@
 }
 
 .font-1-xs{
-    font: 500 0.75rem/1.35 var(--font-poppins);
+    font: 400 0.75rem/1.35 var(--font-poppins);
 }
 
 .font-2-xs{
@@ -15,7 +15,7 @@
 }
 
 .font-1-s{
-    font: 500 1rem/1.5 var(--font-poppins);
+    font: 400 1rem/1.5 var(--font-poppins);
 }
   
 .font-2-s{
@@ -23,7 +23,7 @@
 }
   
 .font-1-m, .font-1-m-b{
-    font: 500 1.125rem/1.35 var(--font-poppins);
+    font: 400 1.125rem/1.35 var(--font-poppins);
 }
   
 .font-1-m-b{
@@ -35,7 +35,7 @@
 }
   
 .font-1-l{
-    font: 500 1.5rem/1.5 var(--font-poppins);
+    font: 400 1.5rem/1.5 var(--font-poppins);
 }
   
 .font-2-l, .font-2-l-b{
