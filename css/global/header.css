@@ -9,14 +9,8 @@
     position: sticky;
     top: 0;
     max-width: 1440px;
-    /* width: 100%; */
     z-index: 3;
 }
-
-/* #header img{
-    display: block;
-    max-width: 100%;
-} */
 
 #header-menu{
     display: flex;
@@ -32,6 +26,14 @@
     color: var(--c10);
     display: inline-block;
     position: relative;
+}
+
+#header-menu a.ativo{
+    border-bottom: 2px solid var(--c10);
+}
+
+#header-menu a.ativo:hover::after{
+    display: none;
 }
 
 #header-menu a::after{
@@ -77,11 +79,6 @@
     #header{
         padding: 10px 0px;
     }
-
-    /* menu-mobile */
-    /* #header-menu{
-        display: none;
-    } */
 }
 
 @media (max-width: 500px){

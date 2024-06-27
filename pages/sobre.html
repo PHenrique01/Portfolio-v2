@@ -10,8 +10,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="./assets/icons/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../assets/icons/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="../css/style.css">
+    <script>document.documentElement.classList.add("js")</script>
     <title>Paulo Henrique - Sobre</title>
 </head>
 <body>
@@ -20,7 +21,7 @@
         <a href="../index.html"><img src="../assets/imgs/logo.svg" alt="Logo" width="372" height="60"></a>
         <nav aria-label="menu">
             <ul id="header-menu">
-                <li><a href="sobre.html" id="sobre-view">Sobre</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
                 <li><a href="formacao.html">Formação</a></li>
                 <li><a href="projetos.html">Projetos</a></li>
             </ul>
@@ -37,10 +38,10 @@
                 <h2 class="titulo">Um pouco sobre mim.</h2>
             </div>
             <div id="sobre-info">
-                <div id="sobre-info-img">
+                <div id="sobre-info-img" class="fadeInLeft" data-anime="200">
                     <img src="../assets/icons/icone-codigo.svg" alt="Icone">
                 </div>
-                <div id="sobre-info-texto">
+                <div id="sobre-info-texto" class="fadeInLeft" data-anime="400">
                     <p class="info-texto">
                         Conheci essa área quando eu estudava em uma escola técnica, onde tinha o ensino médio e o curso técnico. E o curso técnico que eu fiz foi <strong>informática para internet</strong>. A partir dai eu gostei da área.
                         <br>
@@ -88,5 +89,8 @@
         </div>
     </div>
     <!-- ========== FOOTER CONTENT END ========== -->
+    
+    <script src="../js/plugins/simple-anime.js"></script>
+    <script src="../js/script.js"></script>
 </body>
 </html>

@@ -25,14 +25,6 @@
     border-radius: 5px;
 }
 
-#header-menu li #formacao-view{
-    border-bottom: 2px solid var(--c10);
-}
-
-#formacao-view:hover::after{
-    display: none;
-}
-
 /* MEDIA QUERIES */
 
 @media (min-width: 1400px){

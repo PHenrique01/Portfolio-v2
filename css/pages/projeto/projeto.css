@@ -17,12 +17,6 @@
     gap: 40px;
 }
 
-/* .projeto-img{
-    background-color: var(--c12);
-    width: 350px;
-    height: 350px;
-} */
-
 .projeto-img img{
     display: block;
     max-width: 100%;
@@ -66,14 +60,6 @@
 
 .projeto-info .btn:hover{
     background-color: var(--c10);
-}
-
-#header-menu li #projetos-view{
-    border-bottom: 2px solid var(--c10);
-}
-
-#projetos-view:hover::after{
-    display: none;
 }
 
 /* MEDIA QUERIES */

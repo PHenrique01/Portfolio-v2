@@ -10,8 +10,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="./assets/icons/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../assets/icons/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="../css/style.css">
+    <script>document.documentElement.classList.add("js")</script>
     <title>Paulo Henrique - Formação</title>
 </head>
 <body>
@@ -21,7 +22,7 @@
         <nav aria-label="menu">
             <ul id="header-menu">
                 <li><a href="sobre.html">Sobre</a></li>
-                <li><a href="formacao.html" id="formacao-view">Formação</a></li>
+                <li><a href="formacao.html">Formação</a></li>
                 <li><a href="projetos.html">Projetos</a></li>
             </ul>
         </nav>
@@ -37,13 +38,13 @@
                 <h2 class="titulo">Minhas certificações.</h2>
             </div>
             <div id="formacoes-info">
-                <div class="formacao">
+                <div class="formacao fadeInLeft" data-anime="200">
                     <a href="../assets/pdf/imersão-certificado-alura-01.pdf" target="_blank"><img src="../assets/imgs/imersão-certificado-alura-01.jpg" alt="Imagem do certificado"></a>
                 </div>
-                <div class="formacao">
+                <div class="formacao fadeInLeft" data-anime="400">
                     <a href="../assets/pdf/imersão-certificado-alura-02.pdf" target="_blank"><img src="../assets/imgs/imersão-certificado-alura-02.jpg" alt="Imagem do certificado"></a>
                 </div>
-                <div class="formacao">
+                <div class="formacao fadeInLeft" data-anime="600">
                     <a href="../assets/pdf/ui-design-para-iniciantes-certificado-origamid-01.pdf" target="_blank"><img src="../assets/imgs/ui-design-para-iniciantes-certificado-origamid-01.jpg" alt="Imagem do certificado"></a>
                 </div>
             </div>
@@ -86,5 +87,8 @@
         </div>
     </div>
     <!-- ========== FOOTER CONTENT END ========== -->
+
+    <script src="../js/plugins/simple-anime.js"></script>
+    <script src="../js/script.js"></script>
 </body>
 </html>

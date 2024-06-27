@@ -18,14 +18,6 @@
     width: 40px;
 }
 
-#header-menu li #sobre-view{
-    border-bottom: 2px solid var(--c10);
-}
-
-#sobre-view:hover::after{
-    display: none;
-}
-
 /* MEDIA QUERIES */
 
 @media (max-width: 1200px){

@@ -13,6 +13,7 @@
     <link rel="shortcut icon" href="./assets/icons/favicon.ico" type="image/x-icon">
     <link rel="preload" href="./css/style.css" as="style">
     <link rel="stylesheet" href="./css/style.css">
+    <script>document.documentElement.classList.add("js")</script>
     <title>Paulo Henrique - Portfólio</title>
 </head>
 <body>
@@ -32,7 +33,7 @@
     <!-- ========== MAIN CONTENT START ========== -->
     <main id="content" aria-label="conteudo">
         <!-- ========== INTRODUÇÃO SECTION START ========== -->
-        <section id="introducao" aria-label="introducao" class="fechaar">
+        <section id="introducao" class="fadeInLeft" data-anime="400" aria-label="introducao">
             <div id="introducao-info" class="informacao">
                 <h1 id="introducao-titulo">Desenvolvedor Front-end</h1>
                 <p class="info-texto">
@@ -52,7 +53,7 @@
         </section>
         <!-- ========== INTRODUÇÃO SECTION END ========== -->
         <!-- ========== ESTUDO SECTION START ========== -->
-        <section id="estudo" class="fechaar" aria-label="estudos">
+        <section id="estudo" class="" aria-label="estudos">
             <div id="estudo-ano-periodo">
                 <div class="ano-periodo">
                     <span class="ano">20</span>
@@ -70,7 +71,7 @@
         </section>
         <!-- ========== ESTUDO SECTION END ========== -->
         <!-- ========== HABILIDADE SECTION START ========== -->
-        <section id="habilidade" class="fechaar" aria-label="habilidades">
+        <section id="habilidade" class="" aria-label="habilidades">
             <div class="titulos">
                 <h4 class="subtitulo">O que consigo fazer</h4>
                 <h2 class="titulo">Habilidades.</h2>
@@ -114,7 +115,7 @@
                         </p>
                     </div>
                 </div>
-                <div id="habilidade-projeto" class="fechaar">
+                <div id="habilidade-projeto" class="">
                     <h3 id="habilidade-projeto-titulo">Veja meus projetos</h3>
                     <p id="habilidade-projeto-texto">
                         Conheça meus projetos de desenvolvimento Front-end.
@@ -125,7 +126,7 @@
         </section>
         <!-- ========== HABILIDADE SECTION END ========== -->
         <!-- ========== PROJETO SECTION START ========== -->
-        <section id="portfolio" aria-label="portfolio" class="fechaar">
+        <section id="portfolio" aria-label="portfolio" class="">
             <div id="titulos2" class="titulos">
                 <h4 class="subtitulo">Como fiz este trabalho</h4>
                 <h2 class="titulo">Conheça meu portfólio.</h2>
@@ -185,40 +186,11 @@
                 </ul>
             </div>
         </section>
-        <!-- ========== SKILLS SECTION END ========== -->
-        <!-- ========== FORMAÇÃO SECTION START ========== -->
-        <!-- <section id="formacao" aria-label="formacao" class="fechar">
-            <div class="titulos">
-                <h4 class="subtitulo">Em que eu sou certificado</h4>
-                <h2 class="titulo">Formação técnica.</h2>
-            </div>
-            <div id="formacoes">
-                <div class="formacao-info">
-                    <h3 class="info-titulo info-dec">HTML, CSS e JavaScript</h3>
-                    <p class="info-texto">
-                        Neste curso, consegui me atualizar/aprender os fundamentos por trás de cada decisão de código.
-                    </p>
-                </div>
-                <div class="formacao-info">
-                    <h3 class="info-titulo info-dec">UI Design para Iniciantes</h3>
-                    <p class="info-texto">
-                        Neste curso, consegui aprender sobre Design de Interface de Usuário (UI Desing).
-                    </p>
-                </div>
-                <div class="formacao-info">
-                    <h3 class="info-titulo info-dec">Informática para Internet</h3>
-                    <p class="info-texto">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo placeat consequatur animi doloremque dolor voluptas!
-                    </p>
-                </div>
-            </div>
-        </section> -->
-        <!-- ========== FORMAÇÃO SECTION END ========== -->
     </main>
     <!-- ========== MAIN CONTENT END ========== -->
     
     <!-- ========== FOOTER CONTENT START ========== -->
-    <footer id="footer" aria-label="rodape" class="fechaar">
+    <footer id="footer" aria-label="rodape" class="">
         <div id="footer-img">
            <img src="./assets/imgs/logo.svg" alt="Logo" width="372" height="60">
         </div>
@@ -251,5 +223,8 @@
         </div>
     </div>
     <!-- ========== FOOTER CONTENT END ========== -->
+
+    <script src="./js/plugins/simple-anime.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 </html>

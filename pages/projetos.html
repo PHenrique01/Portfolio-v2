@@ -10,8 +10,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="./assets/icons/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../assets/icons/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="../css/style.css">
+    <script>document.documentElement.classList.add("js")</script>
     <title>Paulo Henrique - Projetos</title>
 </head>
 <body>
@@ -22,7 +23,7 @@
             <ul id="header-menu">
                 <li><a href="sobre.html">Sobre</a></li>
                 <li><a href="formacao.html">Formação</a></li>
-                <li><a href="projetos.html" id="projetos-view">Projetos</a></li>
+                <li><a href="projetos.html">Projetos</a></li>
             </ul>
         </nav>
     </header>
@@ -37,7 +38,22 @@
                 <h2 class="titulo">Meus projetos.</h2>
             </div>
             <div id="projetos-info">
-                <div class="projeto">
+                <div class="projeto projeto-reverse fadeInRight" data-anime="200">
+                    <div class="projeto-info">
+                        <h3 class="info-titulo">Jack The Jumper</h3>
+                        <p class="info-texto">
+                            O jack the jumper foi um projeto pra disciplina sistema de multimídia. E nesse projeto foi utilizado as tecnologias: html, css e javascript.
+                        </p>
+                        <div class="btns">
+                            <a href="https://phenrique01.github.io/Jack-The-Jumper/" target="_blank" class="btn">ver projeto</a>
+                            <a href="https://github.com/PHenrique01/Jack-The-Jumper" target="_blank" rel="external" class="btn">ver código</a>
+                        </div>
+                    </div>
+                    <div class="projeto-img">
+                        <img src="../assets/imgs/projeto-jack-the-jumper.png" alt="Imagem do projeto">
+                    </div>
+                </div>
+                <div class="projeto fadeInLeft" data-anime="400">
                     <div class="projeto-img">
                         <img src="../assets/imgs/projeto-bikcraft.png" alt="Imagem do projeto">
                     </div>
@@ -52,7 +68,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="projeto projeto-reverse">
+                <div class="projeto projeto-reverse fadeInRight" data-anime="600">
                     <div class="projeto-info">
                         <h3 class="info-titulo">Psg</h3>
                         <p class="info-texto">
@@ -67,7 +83,7 @@
                         <img src="../assets/imgs/projeto-psg.png" alt="Imagem do projeto">
                     </div>
                 </div>
-                <div class="projeto">
+                <div class="projeto fadeInLeft" data-anime="800">
                     <div class="projeto-img">
                         <img src="../assets/imgs/projeto-foodjp.png" alt="Imagem do projeto">
                     </div>
@@ -82,7 +98,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="projeto projeto-reverse">
+                <div class="projeto projeto-reverse fadeInRight" data-anime="1000">
                     <div class="projeto-info">
                         <h3 class="info-titulo">Cordel Moderno</h3>
                         <p class="info-texto">
@@ -97,7 +113,7 @@
                         <img src="../assets/imgs/projeto-cordel-moderno.png" alt="Imagem do projeto">
                     </div>
                 </div>
-                <div class="projeto">
+                <div class="projeto fadeInLeft" data-anime="1200">
                     <div class="projeto-img">
                         <img src="../assets/imgs/projeto-reencontrow.png" alt="Imagem do projeto">
                     </div>
@@ -152,5 +168,8 @@
         </div>
     </div>
     <!-- ========== FOOTER CONTENT END ========== -->
+
+    <script src="../js/plugins/simple-anime.js"></script>
+    <script src="../js/script.js"></script>
 </body>
 </html>
